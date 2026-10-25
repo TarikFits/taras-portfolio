@@ -45,8 +45,8 @@ header h1{animation-delay:.1s} header .lead{animation-delay:.22s} header .cta{an
 .fs{position:absolute;right:76px;bottom:12px;z-index:2;background:rgba(14,13,22,.78);border:0;padding:7px 9px;cursor:pointer;display:flex}
 .fs:hover,.snd:hover{background:var(--ac)}
 .mq{overflow:hidden;contain:paint;width:100%;border-bottom:1px solid #26233d;padding:14px 0;white-space:nowrap}
-.mq div{display:inline-block;animation:mq 38s linear infinite;color:var(--sub);font-weight:700;letter-spacing:.14em;font-size:13px;text-transform:uppercase}
-.mq span{margin:0 22px;color:var(--ac2)}
+.mq div{display:flex;width:max-content;will-change:transform;animation:mq 40s linear infinite;color:var(--sub);font-weight:700;letter-spacing:.14em;font-size:13px;text-transform:uppercase}
+.mq div>p{display:flex;flex:none} .mq span{margin:0 22px;color:var(--ac2)}
 @keyframes mq{to{transform:translateX(-50%)}}
 .glow{position:absolute;inset:0;pointer-events:none;background:radial-gradient(600px circle at var(--mx,70%) var(--my,30%),#4F3DFF33,transparent 60%)}
 header{position:relative;overflow:hidden}
@@ -57,7 +57,7 @@ header{position:relative;overflow:hidden}
 @supports(animation-timeline:view()){.frame video,.frame img.po{animation:par linear both;animation-timeline:view();animation-range:cover}}
 @keyframes par{from{transform:scale(1.12) translateY(-3%)}to{transform:scale(1.12) translateY(3%)}}
 :fullscreen{background:#000} video:fullscreen{object-fit:contain!important;animation:none}
-@media(prefers-reduced-motion:reduce){.mq div{animation:none}.rv .frame,.rv .meta{clip-path:none;opacity:1;transform:none;transition:none}.frame video,.frame img.po{animation:none!important}}
+@media(prefers-reduced-motion:reduce){.mq div{animation-duration:120s}.rv .frame,.rv .meta{clip-path:none;opacity:1;transform:none;transition:none}.frame video,.frame img.po{animation:none!important}}
 .foot{border-top:1px solid #26233d;padding:40px 0 64px}
 .foot .wrap{display:flex;flex-wrap:wrap;gap:18px 40px;align-items:center;justify-content:space-between}
 .foot p{color:var(--sub)}
@@ -70,63 +70,63 @@ header{position:relative;overflow:hidden}
   <p class="lead">Short-form video for ads and social. AI-assisted visuals and voice, built on reusable templates.</p>
   <div class="glow"></div><div class="cta"><a href="https://t.me/tarasfits">Telegram</a><a class="ghost" href="mailto:taras.fits.art@gmail.com">taras.fits.art@gmail.com</a></div>
 </div></header>
-<div class="mq"><div>UGC ads<span>/</span>AI video<span>/</span>Motion graphics<span>/</span>3D<span>/</span>UI animation<span>/</span>Branding<span>/</span>Video editing<span>/</span>Voiceover<span>/</span>UGC ads<span>/</span>AI video<span>/</span>Motion graphics<span>/</span>3D<span>/</span>UI animation<span>/</span>Branding<span>/</span>Video editing<span>/</span>Voiceover<span>/</span></div></div>
+<div class="mq" aria-hidden="true"><div><p>UGC ads<span>/</span>AI video<span>/</span>Motion graphics<span>/</span>3D<span>/</span>UI animation<span>/</span>Branding<span>/</span>Video editing<span>/</span>Voiceover<span>/</span>UGC ads<span>/</span>AI video<span>/</span>Motion graphics<span>/</span>3D<span>/</span>UI animation<span>/</span>Branding<span>/</span>Video editing<span>/</span>Voiceover<span>/</span>UGC ads<span>/</span>AI video<span>/</span>Motion graphics<span>/</span>3D<span>/</span>UI animation<span>/</span>Branding<span>/</span>Video editing<span>/</span>Voiceover<span>/</span>UGC ads<span>/</span>AI video<span>/</span>Motion graphics<span>/</span>3D<span>/</span>UI animation<span>/</span>Branding<span>/</span>Video editing<span>/</span>Voiceover<span>/</span>UGC ads<span>/</span>AI video<span>/</span>Motion graphics<span>/</span>3D<span>/</span>UI animation<span>/</span>Branding<span>/</span>Video editing<span>/</span>Voiceover<span>/</span></p><p>UGC ads<span>/</span>AI video<span>/</span>Motion graphics<span>/</span>3D<span>/</span>UI animation<span>/</span>Branding<span>/</span>Video editing<span>/</span>Voiceover<span>/</span>UGC ads<span>/</span>AI video<span>/</span>Motion graphics<span>/</span>3D<span>/</span>UI animation<span>/</span>Branding<span>/</span>Video editing<span>/</span>Voiceover<span>/</span>UGC ads<span>/</span>AI video<span>/</span>Motion graphics<span>/</span>3D<span>/</span>UI animation<span>/</span>Branding<span>/</span>Video editing<span>/</span>Voiceover<span>/</span>UGC ads<span>/</span>AI video<span>/</span>Motion graphics<span>/</span>3D<span>/</span>UI animation<span>/</span>Branding<span>/</span>Video editing<span>/</span>Voiceover<span>/</span>UGC ads<span>/</span>AI video<span>/</span>Motion graphics<span>/</span>3D<span>/</span>UI animation<span>/</span>Branding<span>/</span>Video editing<span>/</span>Voiceover<span>/</span></p></div></div>
 <div class="wrap"><main>
-<div class="row">    <article class="card rv" id="frop" style="--ar:1.7778">
-      <div class="frame"><span class="num">01</span><img class="po" src="media/frop.jpg" alt="Frop: brand video" loading="lazy">
-        <video data-t="5.6" data-src="media/frop.mp4" poster="media/frop.jpg" muted playsinline preload="none"></video>
+<div class="row">    <article class="card rv" id="crocoblocks" style="--ar:1.0000">
+      <div class="frame"><span class="num">01</span><img class="po" src="media/crocoblocks.jpg" alt="Connect your AI to WordPress" loading="lazy">
+        <video data-t="5.2" data-src="media/crocoblocks.mp4" poster="media/crocoblocks.jpg" muted playsinline preload="none"></video>
         <button class="snd" aria-label="Sound on/off">Sound</button><button class="fs" aria-label="Fullscreen" title="Fullscreen"><svg viewBox="0 0 16 16" width="14" height="14"><path d="M1 6V1h5M10 1h5v5M15 10v5h-5M6 15H1v-5" fill="none" stroke="#fff" stroke-width="1.6"/></svg></button></div>
-      <div class="meta"><div class="client">Frop · 16 s</div>
-        <h2>Frop: brand video</h2><ul class="tags"><li>Branding</li><li>Video editing</li></ul></div>
-    </article></div>
-<div class="row">    <article class="card rv" id="ai-creative" style="--ar:0.5625">
+      <div class="meta"><div class="client">Crocoblocks · 7 s</div>
+        <h2>Connect your AI to WordPress</h2><ul class="tags"><li>Product promo</li><li>Motion graphics</li></ul></div>
+    </article>
+    <article class="card rv" id="ai-creative" style="--ar:0.5625">
       <div class="frame"><span class="num">02</span><img class="po" src="media/ai-creative.jpg" alt="AI-generated creative" loading="lazy">
         <video data-t="6.0" data-src="media/ai-creative.mp4" poster="media/ai-creative.jpg" muted playsinline preload="none"></video>
         <button class="snd" aria-label="Sound on/off">Sound</button><button class="fs" aria-label="Fullscreen" title="Fullscreen"><svg viewBox="0 0 16 16" width="14" height="14"><path d="M1 6V1h5M10 1h5v5M15 10v5h-5M6 15H1v-5" fill="none" stroke="#fff" stroke-width="1.6"/></svg></button></div>
       <div class="meta"><div class="client">AI video · 48 s</div>
         <h2>AI-generated creative</h2><ul class="tags"><li>AI visuals</li><li>Voiceover</li></ul></div>
     </article>
-    <article class="card rv" id="crocoblocks" style="--ar:1.0000">
-      <div class="frame"><span class="num">03</span><img class="po" src="media/crocoblocks.jpg" alt="Connect your AI to WordPress" loading="lazy">
-        <video data-t="5.2" data-src="media/crocoblocks.mp4" poster="media/crocoblocks.jpg" muted playsinline preload="none"></video>
-        <button class="snd" aria-label="Sound on/off">Sound</button><button class="fs" aria-label="Fullscreen" title="Fullscreen"><svg viewBox="0 0 16 16" width="14" height="14"><path d="M1 6V1h5M10 1h5v5M15 10v5h-5M6 15H1v-5" fill="none" stroke="#fff" stroke-width="1.6"/></svg></button></div>
-      <div class="meta"><div class="client">Crocoblocks · 7 s</div>
-        <h2>Connect your AI to WordPress</h2><ul class="tags"><li>Product promo</li><li>Motion graphics</li></ul></div>
-    </article>
     <article class="card rv" id="test-ui" style="--ar:1.0000">
-      <div class="frame"><span class="num">04</span><img class="po" src="media/test-ui.jpg" alt="App UI animation" loading="lazy">
+      <div class="frame"><span class="num">03</span><img class="po" src="media/test-ui.jpg" alt="App UI animation" loading="lazy">
         <video data-t="4.0" data-src="media/test-ui.mp4" poster="media/test-ui.jpg" muted playsinline preload="none"></video>
         <button class="snd" aria-label="Sound on/off">Sound</button><button class="fs" aria-label="Fullscreen" title="Fullscreen"><svg viewBox="0 0 16 16" width="14" height="14"><path d="M1 6V1h5M10 1h5v5M15 10v5h-5M6 15H1v-5" fill="none" stroke="#fff" stroke-width="1.6"/></svg></button></div>
       <div class="meta"><div class="client">Mobile app · 6 s</div>
         <h2>App UI animation</h2><ul class="tags"><li>UI animation</li><li>Score screen</li></ul></div>
     </article></div>
-<div class="row">    <article class="card rv" id="betterme-3" style="--ar:0.5625">
-      <div class="frame"><span class="num">05</span><img class="po" src="media/betterme-3.jpg" alt="BetterMe: activewear" loading="lazy">
-        <video data-t="3.0" data-src="media/betterme-3.mp4" poster="media/betterme-3.jpg" muted playsinline preload="none"></video>
-        <button class="snd" aria-label="Sound on/off">Sound</button><button class="fs" aria-label="Fullscreen" title="Fullscreen"><svg viewBox="0 0 16 16" width="14" height="14"><path d="M1 6V1h5M10 1h5v5M15 10v5h-5M6 15H1v-5" fill="none" stroke="#fff" stroke-width="1.6"/></svg></button></div>
-      <div class="meta"><div class="client">BetterMe · 17 s</div>
-        <h2>BetterMe: activewear</h2><ul class="tags"><li>UGC ad</li><li>Fashion</li></ul></div>
-    </article>
-    <article class="card rv" id="test-3d" style="--ar:0.5625">
-      <div class="frame"><span class="num">06</span><img class="po" src="media/test-3d.jpg" alt="Depression Test Score: app promo" loading="lazy">
+<div class="row">    <article class="card rv" id="test-3d" style="--ar:0.5625">
+      <div class="frame"><span class="num">04</span><img class="po" src="media/test-3d.jpg" alt="Depression Test Score: app promo" loading="lazy">
         <video data-t="8.0" data-src="media/test-3d.mp4" poster="media/test-3d.jpg" muted playsinline preload="none"></video>
         <button class="snd" aria-label="Sound on/off">Sound</button><button class="fs" aria-label="Fullscreen" title="Fullscreen"><svg viewBox="0 0 16 16" width="14" height="14"><path d="M1 6V1h5M10 1h5v5M15 10v5h-5M6 15H1v-5" fill="none" stroke="#fff" stroke-width="1.6"/></svg></button></div>
       <div class="meta"><div class="client">Mobile app · 11 s</div>
         <h2>Depression Test Score: app promo</h2><ul class="tags"><li>3D phone mockup</li><li>UI animation</li></ul></div>
     </article>
     <article class="card rv" id="betterme-1" style="--ar:0.5625">
-      <div class="frame"><span class="num">07</span><img class="po" src="media/betterme-1.jpg" alt="BetterMe: capsule wardrobe" loading="lazy">
+      <div class="frame"><span class="num">05</span><img class="po" src="media/betterme-1.jpg" alt="BetterMe: capsule wardrobe" loading="lazy">
         <video data-t="3.0" data-src="media/betterme-1.mp4" poster="media/betterme-1.jpg" muted playsinline preload="none"></video>
         <button class="snd" aria-label="Sound on/off">Sound</button><button class="fs" aria-label="Fullscreen" title="Fullscreen"><svg viewBox="0 0 16 16" width="14" height="14"><path d="M1 6V1h5M10 1h5v5M15 10v5h-5M6 15H1v-5" fill="none" stroke="#fff" stroke-width="1.6"/></svg></button></div>
       <div class="meta"><div class="client">BetterMe · 22 s</div>
         <h2>BetterMe: capsule wardrobe</h2><ul class="tags"><li>UGC ad</li><li>Fashion</li></ul></div>
     </article>
     <article class="card rv" id="betterme-2" style="--ar:0.5625">
-      <div class="frame"><span class="num">08</span><img class="po" src="media/betterme-2.jpg" alt="BetterMe: creators" loading="lazy">
+      <div class="frame"><span class="num">06</span><img class="po" src="media/betterme-2.jpg" alt="BetterMe: creators" loading="lazy">
         <video data-t="4.0" data-src="media/betterme-2.mp4" poster="media/betterme-2.jpg" muted playsinline preload="none"></video>
         <button class="snd" aria-label="Sound on/off">Sound</button><button class="fs" aria-label="Fullscreen" title="Fullscreen"><svg viewBox="0 0 16 16" width="14" height="14"><path d="M1 6V1h5M10 1h5v5M15 10v5h-5M6 15H1v-5" fill="none" stroke="#fff" stroke-width="1.6"/></svg></button></div>
       <div class="meta"><div class="client">BetterMe · 35 s</div>
         <h2>BetterMe: creators</h2><ul class="tags"><li>UGC ad</li></ul></div>
+    </article>
+    <article class="card rv" id="betterme-3" style="--ar:0.5625">
+      <div class="frame"><span class="num">07</span><img class="po" src="media/betterme-3.jpg" alt="BetterMe: activewear" loading="lazy">
+        <video data-t="3.0" data-src="media/betterme-3.mp4" poster="media/betterme-3.jpg" muted playsinline preload="none"></video>
+        <button class="snd" aria-label="Sound on/off">Sound</button><button class="fs" aria-label="Fullscreen" title="Fullscreen"><svg viewBox="0 0 16 16" width="14" height="14"><path d="M1 6V1h5M10 1h5v5M15 10v5h-5M6 15H1v-5" fill="none" stroke="#fff" stroke-width="1.6"/></svg></button></div>
+      <div class="meta"><div class="client">BetterMe · 17 s</div>
+        <h2>BetterMe: activewear</h2><ul class="tags"><li>UGC ad</li><li>Fashion</li></ul></div>
+    </article></div>
+<div class="row">    <article class="card rv" id="frop" style="--ar:1.7778">
+      <div class="frame"><span class="num">08</span><img class="po" src="media/frop.jpg" alt="Frop: brand video" loading="lazy">
+        <video data-t="5.6" data-src="media/frop.mp4" poster="media/frop.jpg" muted playsinline preload="none"></video>
+        <button class="snd" aria-label="Sound on/off">Sound</button><button class="fs" aria-label="Fullscreen" title="Fullscreen"><svg viewBox="0 0 16 16" width="14" height="14"><path d="M1 6V1h5M10 1h5v5M15 10v5h-5M6 15H1v-5" fill="none" stroke="#fff" stroke-width="1.6"/></svg></button></div>
+      <div class="meta"><div class="client">Frop · 16 s</div>
+        <h2>Frop: brand video</h2><ul class="tags"><li>Branding</li><li>Video editing</li></ul></div>
     </article></div>
 </main>
 </div>
